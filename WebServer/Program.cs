@@ -29,6 +29,6 @@ namespace WebServer
             app.MapRazorPages();
 
             app.Run();
-        }
-    }
-}
+        }//END OF METHOD Main
+    }//END OF CLASS Program
+}//END OF NAMESPACE WebServer
