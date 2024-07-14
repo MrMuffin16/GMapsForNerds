@@ -12,11 +12,30 @@ html {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+html {     
+    min-height:200px;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
   margin-bottom: 60px;
+}
+
+carousel-inner {
+    min-height: 200px;
+    max-height: 600px;
+}
+
+
+.carousel-caption {
+    background: rgb(0, 0, 0, 0.25);
+    border-radius: 30px;
+    color: rgb(235, 235, 235);
+    text-align: center;
+    
+}
+
+.dark {
+    filter: brightness(40%);
 }
