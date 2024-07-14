@@ -2,7 +2,7 @@
 @model WebServer.Pages.BikeRacks.IndexModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Built-In DB";
 }
 
 <h1>Database - Bike Racks</h1>
@@ -14,7 +14,7 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.BikeRack[0].Suburb)
+                @Html.DisplayNameFor(model => model.BikeRack[0].Suberb)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.BikeRack[0].Address)
@@ -32,7 +32,7 @@
 @foreach (var item in Model.BikeRack) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Suberb)
+                    @Html.DisplayFor(modelItem => item.Suberb)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Address)

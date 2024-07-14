@@ -1,10 +1,25 @@
 ﻿@page
-@model WebServer.Pages.DatabaseModel
+@model WebServer.Pages.BikeRacks.IndexModel
+
 @{
-    ViewData["Title"] = "Map";
+    ViewData["Title"] = "SQLite DB";
 }
     
-}
 <h1>@ViewData["Title"]</h1>
 
-<p>!!! This is where the database(s) goes.</p>
+
+
+
+
+
+
+
+<ul>
+    @foreach (var location in Model.BikeRack)
+    {
+        <li>@location.Latitude, @location.Logitude</li>
+    }
+</ul>
+
+
+<p>!!! This is where the SQLite database goes.</p>

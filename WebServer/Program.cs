@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using WebServer.Data;
@@ -13,6 +14,9 @@ namespace WebServer
 
             // Add services to the container.
             builder.Services.AddRazorPages();
+            builder.Services.AddDbContext<WebServer.Data.WebServerContext>(options => //!!! No idea if this works.
+            options.UseSqlServer(builder.Configuration.GetConnectionString("RazorPagesMovieContext") ?? 
+            throw new InvalidOperationException("Connection string 'RazorPagesMovieContext' not found.")));
 
             var app = builder.Build();
 
@@ -34,6 +38,22 @@ namespace WebServer
             app.MapRazorPages();
 
             app.Run();
-        }//END OF METHOD Main
-    }//END OF CLASS Program
-}//END OF NAMESPACE WebServer
+        }
+
+        public class MapController : Controller
+        {
+            private readonly WebServerContext _dbContext;
+
+            public MapController(WebServerContext dbContext)
+            {
+                _dbContext = dbContext;
+            }
+
+            public IActionResult Index()
+            {
+                var BikeRack = _dbContext.BikeRack.ToList();
+                return View(BikeRack);
+            }
+        }
+    }
+}

@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Anthony\\Downloads\\GMapsForNerds\\WebServer\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78CE7994-6CC6-43E4-8649-BECE0FC1531A}|WebServer.csproj|c:\\users\\anthony\\downloads\\gmapsfornerds\\webserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{78CE7994-6CC6-43E4-8649-BECE0FC1531A}|WebServer.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78CE7994-6CC6-43E4-8649-BECE0FC1531A}|WebServer.csproj|c:\\users\\anthony\\downloads\\gmapsfornerds\\webserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78CE7994-6CC6-43E4-8649-BECE0FC1531A}|WebServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78CE7994-6CC6-43E4-8649-BECE0FC1531A}|WebServer.csproj|c:\\users\\anthony\\downloads\\gmapsfornerds\\webserver\\pages\\bikeracks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78CE7994-6CC6-43E4-8649-BECE0FC1531A}|WebServer.csproj|solutionrelative:pages\\bikeracks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78CE7994-6CC6-43E4-8649-BECE0FC1531A}|WebServer.csproj|c:\\users\\anthony\\downloads\\gmapsfornerds\\webserver\\pages\\database.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78CE7994-6CC6-43E4-8649-BECE0FC1531A}|WebServer.csproj|solutionrelative:pages\\database.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78CE7994-6CC6-43E4-8649-BECE0FC1531A}|WebServer.csproj|c:\\users\\anthony\\downloads\\gmapsfornerds\\webserver\\pages\\database.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78CE7994-6CC6-43E4-8649-BECE0FC1531A}|WebServer.csproj|solutionrelative:pages\\database.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78CE7994-6CC6-43E4-8649-BECE0FC1531A}|WebServer.csproj|c:\\users\\anthony\\downloads\\gmapsfornerds\\webserver\\models\\bikerack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78CE7994-6CC6-43E4-8649-BECE0FC1531A}|WebServer.csproj|solutionrelative:models\\bikerack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Anthony\\Downloads\\GMapsForNerds\\WebServer\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Anthony\\Downloads\\GMapsForNerds\\WebServer\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-14T03:40:59.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Anthony\\Downloads\\GMapsForNerds\\WebServer\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Anthony\\Downloads\\GMapsForNerds\\WebServer\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T03:40:35.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BikeRack.cs",
+              "DocumentMoniker": "C:\\Users\\Anthony\\Downloads\\GMapsForNerds\\WebServer\\Models\\BikeRack.cs",
+              "RelativeDocumentMoniker": "Models\\BikeRack.cs",
+              "ToolTip": "C:\\Users\\Anthony\\Downloads\\GMapsForNerds\\WebServer\\Models\\BikeRack.cs",
+              "RelativeToolTip": "Models\\BikeRack.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T03:39:00Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anthony\\Downloads\\GMapsForNerds\\WebServer\\Pages\\BikeRacks\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\BikeRacks\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Anthony\\Downloads\\GMapsForNerds\\WebServer\\Pages\\BikeRacks\\Index.cshtml",
+              "RelativeToolTip": "Pages\\BikeRacks\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T03:25:35.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Database.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Anthony\\Downloads\\GMapsForNerds\\WebServer\\Pages\\Database.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Database.cshtml.cs",
+              "ToolTip": "C:\\Users\\Anthony\\Downloads\\GMapsForNerds\\WebServer\\Pages\\Database.cshtml.cs",
+              "RelativeToolTip": "Pages\\Database.cshtml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T02:59:52.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Database.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anthony\\Downloads\\GMapsForNerds\\WebServer\\Pages\\Database.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Database.cshtml",
+              "ToolTip": "C:\\Users\\Anthony\\Downloads\\GMapsForNerds\\WebServer\\Pages\\Database.cshtml",
+              "RelativeToolTip": "Pages\\Database.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T02:58:59.924Z",
+              "EditorCaption": ""
             }
           ]
         }
