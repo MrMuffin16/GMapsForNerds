@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using WebServer.Data;
 namespace WebServer
 {
     public class Program
@@ -5,6 +8,8 @@ namespace WebServer
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddDbContext<WebServerContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("WebServerContext") ?? throw new InvalidOperationException("Connection string 'WebServerContext' not found.")));
 
             // Add services to the container.
             builder.Services.AddRazorPages();
