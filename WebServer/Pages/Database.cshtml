@@ -5,21 +5,11 @@
     ViewData["Title"] = "SQLite DB";
 }
     
-<h1>@ViewData["Title"]</h1>
-
-
-
-
-
-
-
+<h1>Database - Bike Racks (SQLite)</h1>
 
 <ul>
     @foreach (var location in Model.BikeRack)
     {
-        <li>@location.Latitude, @location.Logitude</li>
+        <li>Suburb: @location.Suberb; Address: @location.Address; Geolocation: @location.Latitude, @location.Logitude.</li>
     }
 </ul>
-
-
-<p>!!! This is where the SQLite database goes.</p>

@@ -14,7 +14,7 @@ namespace WebServer
 
             // Add services to the container.
             builder.Services.AddRazorPages();
-            builder.Services.AddDbContext<WebServer.Data.WebServerContext>(options => //!!! No idea if this works.
+            builder.Services.AddDbContext<WebServer.Data.WebServerContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("RazorPagesMovieContext") ?? 
             throw new InvalidOperationException("Connection string 'RazorPagesMovieContext' not found.")));
 
