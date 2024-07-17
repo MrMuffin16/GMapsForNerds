@@ -14,11 +14,7 @@ namespace WebServer.Pages
                 connection.Open();
 
                 var command = connection.CreateCommand();
-                command.CommandText =
-                @"
-                    SELECT * FROM bike_rack_location
-                ";
-                //command.Parameters.AddWithValue("$id", "Suburb");
+                command.CommandText = @"SELECT * FROM bike_rack_location";
 
                 using (var reader = command.ExecuteReader())
                 {
